@@ -96,8 +96,8 @@ abbr[data-original-title] {
           text-decoration: underline dotted;
   cursor: help;
   border-bottom: 0;
-  -webkit-text-decoration-skip-ink: none;
-          text-decoration-skip-ink: none;
+  /* -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none; */
 }
 
 address {
@@ -4511,9 +4511,7 @@ input[type=button].btn-block {
   }
 }
 
-.accordion {
-  overflow-anchor: none;
-}
+
 .accordion > .card {
   overflow: hidden;
 }
@@ -10487,11 +10485,11 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 
 .link{
-  margin: 20;
+  margin: 20px;
   font-size: 1.5rem;
 }
 .link :hover{
-  margin: 20;
+  margin: 20px;
   font-size: 1.5rem;
   color: rgb(240, 59, 59)
 }
