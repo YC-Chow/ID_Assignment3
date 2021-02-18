@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokeQuiz</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/game.css">
+    <script type="text/javascript" src="js/game.js"></script>
+</head>
+<body>
+    <div class="content center-block clearfix">
+        <header>
+            <h1 class = "text-center">Who's that Pokémon?</h1>
+        </header>
+        <div class="row start center-block">
+            <h3 class = "text-center">The classic "GUESS THAT POKEMON" game</h3>
+        </div> 
+        <!-- loading gif and timer-->
+        <div class = "row timer center-block">
+            <img src="image/loading.gif" alt="Spinning Pokeball" class = "loading-image center-block">
+            <h2 class = "text-center" id="timer"></h2>
+        </div>
+        <!-- start button -->
+        <div class = "row start center-block">
+            <button class=" center-block btn-danger" id="startBtn">
+                <p class = "center-block">Start</p>
+            </button>
+        </div>
+        <!-- Question answered right or wrong -->
+        <div class = "row result center-block">
+            <h2 class = "text-center" id="right-or-wrong"></h2>
+        </div>
+        <!-- display pokemon image -->
+        <div class = "row showPokeImg center-block">
+            <img src="#" alt= "#" class="center-block pokeImg">
+        </div>
+        <!-- display answer options -->
+        <div class = "row displayOptions center-block">
+            <div class="answer-options"></div>
+        </div>
+        <!-- answer for the question -->
+        <div class = "row result center-block">
+            <h1 class = "text-center" id="correct-answer"><h1>
+        </div>
+        <!-- overall results -->
+        <div class = "row finalResultBox center-block">
+            <h1 class="text-center result-text">Results</h1>
+            <p class="text-center" id = "correctAns"></p>
+            <p class="text-center" id = "wrongAns"></p>
+            <p class="text-center" id = "noAns"></p>
+        </div>
+        <div class = "row restart center-block">
+            <button class = "center-block btn btn-danger" id = "restartBtn">
+                <p>Restart</p>
+            </button>
+        </div>
+        <div class = "row center-block">
+            <button class=" center-block btn-danger" id="homeBtn">
+                <a href="index.html">Home</a>
+            </button>
+        </div>
+        <div class = "row reset center-block">
+            <button class=" center-block btn-danger" id="resetBtn">
+                <p>Reset</p>
+            </button>
+        </div>
+    </div>
+    
+</body>
+</html>
