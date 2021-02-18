@@ -55,9 +55,31 @@ $(document).ready(function() {
 
         startQuestion: function(){
             if (currentQuestion.ids.length === 4){
-                
+                DOMFunctions.callDOMFunctions(event = 'newQuestion');
+                timer.start();
             }
-        }
+        },
+
+        isCorrect: function(){
+            if (answer === currentQuestion.answers[currentQuestion.answerIndex]){
+                return true;
+            }
+            else{
+                return false;
+            }
+        },
+
+        updateScores: function(correct){
+            if (correct === true){
+                correctAnswer++;
+            }
+            else if(correct === false){
+                wrongAnswer++;
+            }
+            else{
+                noAnsAnswer ++;
+            }
+        },
     }
 
     //DOM functions
@@ -127,7 +149,7 @@ $(document).ready(function() {
             $('#noAns').text('Unanswered: ' + noAnsAnswer);
             $('.restart').show();
         },
-        showNewGame: function() {
+        createNewGame: function() {
             // Hide restart, timer section, and game results.
             $('.restartBtn').hide();
             $('.timer').hide();
@@ -142,20 +164,20 @@ $(document).ready(function() {
         callDOMFunctions : function(event,correct, timeRemaining) {
             // call functions according to state of game
             if (event === 'startGame') {
-                DOMFunctions.displayLoadingGIF();
+                DOMFunctions.showGIF();
             } else if (event === 'newQuestion') {
                 DOMFunctions.hideAnswer();
-                DOMFunctions.displayQuestion();
-                DOMFunctions.displayTimer();
+                DOMFunctions.showQuestion();
+                DOMFunctions.showTimer();
             } else if (event === 'countDown') {
-                DOMFunctions.displayTimeLeft(timeRemaining);
+                DOMFunctions.showTimeLeft(timeRemaining);
             } else if (event === 'questionAnswered') {
-                DOMFunctions.displayAnswer(correct);
+                DOMFunctions.showAnswer(correct);
             } else if (event === 'gameComplete') {
                 DOMFunctions.hideAnswer();
-                DOMFunctions.displayResults();
+                DOMFunctions.showResults();
             } else if (event === 'restartClicked') {
-                DOMFunctions.displayNewGame();
+                DOMFunctions.createNewGame();
             }
         }
     };
@@ -183,5 +205,7 @@ $(document).ready(function() {
             clearInterval(counter);
             timer.count = 9
         }
-    }
+    },
+
+
 })
