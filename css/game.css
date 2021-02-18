@@ -1,0 +1,166 @@
+/* body {
+    align-items: center;
+    background-image: url('../image/gameBg.png');
+    background-clip: content-box;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    font-family: 'Comfortaa', Arial, Verdana;
+    min-height: 90vh;
+    min-width: 80%;
+    padding: 3vh 8vw;
+}
+.content {
+    background-color: lightgray;
+    background-color: rgba(255, 255, 255, .5);
+    border: 0 solid transparent;
+    border-radius: 10px;
+    min-height: 93.2vh;
+    min-width: 100%;
+    padding: 1%;
+}
+
+.timer,
+.loading-image,
+.right-wrong,
+.question-display,
+.displayPokemon,
+.itsPokemon
+.resultBox{
+    display: none;
+}
+.row{
+    width: 100%;
+}
+
+.loading-image{
+    height: auto;
+    width: 190px
+}
+
+#startBtn{
+    border-radius: 10px;
+    min-height: 5vh;
+    min-width: 7vh;
+}
+
+#startBtn p{
+    font-size: 30px;
+}
+
+.resultBox {
+    background-color: white;
+    background-color: rgba(0, 0, 0, .2);
+    border: 0 solid transparent;
+    border-radius: 10px;
+    margin: 3% auto;
+    max-width: 380px;
+    padding: 3%;
+}
+.result{
+    text-decoration: underline;
+}
+
+
+ */
+
+
+body {
+    align-items: center;
+    background-image: url('../image/gameBg.png');
+    background-clip: content-box;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    font-family: 'Comfortaa', Arial, Verdana;
+    min-height: 90vh;
+    min-width: 80%;
+    padding: 3vh 8vw;
+}
+
+.row{
+    width: 100%;
+}
+
+
+.content {
+    background-color: lightgray;
+    background-color: rgba(255, 255, 255, .5);
+    border: 0 solid transparent;
+    border-radius: 10px;
+    min-height: 93.2vh;
+    min-width: 100%;
+    padding: 1%;
+}
+
+
+.timer,
+.loading-image,
+.resultBox,
+.question-display,
+.display-options,
+.right-wrong,
+.restartBtn {
+    display: none;
+}
+
+.loading-image {
+    height: auto;
+    width: 150px;
+}
+
+#startBtn{
+    border-radius: 10px;
+    min-height: 5vh;
+    min-width: 7vh;
+}
+
+#startBtn p{
+    font-size: 30px;
+}
+
+#restartBtn{
+    border-radius: 10px;
+    min-height: 5vh;
+    min-width: 7vh;
+}
+
+#restartBtn a{
+    font-size: 30px;
+    color: white;
+}
+#restartBtn a:hover{
+    text-decoration: none;
+}
+
+.silhouette {
+    filter: contrast(0%) brightness(20%);
+    opacity: 1;
+    transition: filter 0s;
+}
+
+.resultBox {
+    background-color: white;
+    background-color: rgba(0, 0, 0, .2);
+    border: 0 solid transparent;
+    border-radius: 10px;
+    margin: 3% auto;
+    max-width: 380px;
+    padding: 3%;
+}
+
+.result {
+    text-decoration: underline;
+}
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 640px) {
+    body {
+        background: rgb(207, 242, 255);
+        background: linear-gradient(to bottom, rgba(207, 242, 255, 1) 0%, rgba(121, 222, 255, 1) 100%);
+    }
+}
