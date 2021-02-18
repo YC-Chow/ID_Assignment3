@@ -158,5 +158,30 @@ $(document).ready(function() {
                 DOMFunctions.displayNewGame();
             }
         }
+    };
+    let timer = {
+        count: 9,
+
+        //countdown timer
+        start: function(){
+            timer.decrement();
+            counter = setInterval(timer.decrement, 1000);
+        },
+
+        decrement: function(){
+            timer.count--;
+            DOMFunctions.callDOMFunctions(event = 'countDown',correct = null, timeRemaining = timer.count);
+            if (timer.count === 0){
+                timer.stop();
+                game.updateScores();
+                DOMFunctions.callDOMFunctions(events = 'questionAnswered', correct = '');
+            }
+        },
+
+        //reset timer
+        stop: function(){
+            clearInterval(counter);
+            timer.count = 9
+        }
     }
 })
