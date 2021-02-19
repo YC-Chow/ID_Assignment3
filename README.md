@@ -19,23 +19,28 @@ Bulbapedia is a fandom (a wiki page contributed by fans of the related topic).<b
 The information in Bulbapedia is contributed either through data mining or simply fans playing the game.<br>
 Currently Bulbapedia is one of the sites that has the most updated information on pokemons.<br>
 <br>
-<h3>Technologies Used</h3>
+<br>
+# Technologies Used
 <ul style = "list-style-type : cirlce">
  <li>
   <a href = "https://code.jquery.com/">JQuery</a> 
- - This project uses **Jquery** for DOM Manipulation
+  - This project uses <b>Jquery</b> for DOM Manipulation
  </li>
  <li>
   <a href = "https://getbootstrap.com/">Bootstrap</a>
- - This project uses **bootstrap** to make designing faster and easier 
+ - This project uses <b>bootstrap</b> to make designing faster and easier 
  </li>
  <li>
   HTML
- - The project uses HTML for the content of the website.
+ - The project uses <b>HTML</b> for the content of the website.
  </li>
  <li>
   CSS
- - This project uses **CSS** to style the content of the website
+ - This project uses <b>CSS</b> to style the content of the website
+ </li>
+ <li>
+  Javascript
+  - This project uses <b>Javascript</b> to simulate the game element of the website
  </li>
 </ul>
 
