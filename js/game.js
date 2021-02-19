@@ -19,11 +19,11 @@ $(document).ready(function() {
         questionsAsked: 0,
         // API things
         queryMethod: 'GET',
-        queryURL: 'http://pokeapi.co/api/v2/pokemon/',
+        queryURL: 'https://pokeapi.co/api/v2/pokemon/',
 
         selectQuestion: function() {
 
-            if (game.questionsAsked === 5) {
+            if (game.questionsAsked === 10) {
                 DOMFunctions.callDOMFunctions('gameComplete');
             } 
             else {
@@ -33,7 +33,7 @@ $(document).ready(function() {
                 game.questionsAsked++;
                 let idArray = [];
                 while (idArray.length < 4) {
-                    let pokeID = Math.ceil(Math.random() * 1118);
+                    let pokeID = Math.ceil(Math.random() * 721);
                     if (idArray.indexOf(pokeID) !== -1) continue;
                     idArray.push(pokeID);
                 }
@@ -136,7 +136,7 @@ $(document).ready(function() {
             }
             $('.pokemon-info').show();
             $('#wiki-link').attr('href','https://bulbapedia.bulbagarden.net/wiki/'+currentQuestion.answers[currentQuestion.answerIndex]+'_(Pok%C3%A9mon)')
-            setTimeout(game.selectQuestion, 1500);
+            setTimeout(game.selectQuestion, 2000);
         },
         hideAnswer: function() {
             $('.timer').show();
@@ -239,7 +239,14 @@ $(document).ready(function() {
         $('.showPokeImg').hide();
         $('.displayOptions').hide();
         timer.stop();
-    })
+    });
+
+    //more info btn click on
+    // $('#infoBtn').on('click', function() {
+    //     let url = 'https://bulbapedia.bulbagarden.net/wiki/'+currentQuestion.answers[currentQuestion.answerIndex]+'_(Pok%C3%A9mon)'
+    //     window.open(url);
+    // })
+
 });
 
 
