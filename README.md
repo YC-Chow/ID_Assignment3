@@ -70,20 +70,20 @@ Currently Bulbapedia is one of the sites that has the most updated information o
     <li><a href = "https://lottiefiles.com/web-player?lottie_url=https%3A%2F%2Fassets10.lottiefiles.com%2Fpackages%2Flf20_jhcWqS.json">Lottie Animation 4</a></li>
     <li><a href = "https://lottiefiles.com/web-player?lottie_url=https%3A%2F%2Fassets10.lottiefiles.com%2Fanimated_stickers%2Flf_tgs_dvieylsg.json">Lottie Animation 5</a></li>
     <li><a href = "https://lottiefiles.com/web-player?lottie_url=https%3A%2F%2Fassets4.lottiefiles.com%2Fanimated_stickers%2Flf_tgs_YmKbXU.json">Lottie Animation 6</a></li>
-    <li><a href = "https://images.app.goo.gl/ne2XW9LzqDtwRHGS9"></a>Gen 1 Image</li>
-    <li><a href = "https://wallup.net/pokemon-first-generation-pokemon/"></a>Gen 1 Image2</li>
-    <li><a href = "https://images.app.goo.gl/hFqwxrwuubh4YQKo6"></a>Gen 2 Image</li>
-    <li><a href = "https://wallpaperaccess.com/pokemon-gold"></a>Gen 2 Image2</li>
-    <li><a href = "https://images.app.goo.gl/wLm9R8FmK3oS5Y9f7"></a>Gen 3 Image</li>
-    <li><a href = "https://images.app.goo.gl/vWk8wRmiH7uCF5v46"></a>Gen 3 Image2</li>
-    <li><a href = "https://images.app.goo.gl/7bmPKbymnvrrS7Kd7"></a>Gen 4 Image</li>
-    <li><a href = "https://images.app.goo.gl/9NTMAq3Ji9bfv78b7"></a>Gen 4 Image2</li>
-    <li><a href = "https://images.app.goo.gl/W5K5EXbGi3aobGtQ8"></a>Gen 5 Image</li>
-    <li><a href = "https://images.app.goo.gl/jat9WaH12pXAnnV56"></a>Gen 5 Image2</li>
-    <li><a href = "https://images.app.goo.gl/5KFJBWNoKosMdECi7"></a>Gen 6 Image</li>
-    <li><a href = "https://images.app.goo.gl/tKHX2nHCSuZRSZrh7"></a>Gen 6 Image2</li>
-    <li><a href = "https://images.app.goo.gl/f1qK54bpHmQRbaqU9"></a>Gen 7 Image</li>
-    <li><a href = "https://images.app.goo.gl/Qu6i7TVm6dJXedgHA"></a>Gen 7 Image2</li>
-    <li><a href = "https://images.app.goo.gl/FxkzZD5C3fznuLHq7"></a>Gen 8 Image</li>
-    <li><a href = "https://twinfinite.net/2019/11/10-hd-pokemon-sword-shield-wallpapers-you-need-to-make-your-desktop-background/"></a>Gen 8 Image2</li>
+    <li><a href = "https://images.app.goo.gl/ne2XW9LzqDtwRHGS9">Gen 1 Image</a></li>
+    <li><a href = "https://wallup.net/pokemon-first-generation-pokemon/">Gen 1 Image2</a></li>
+    <li><a href = "https://images.app.goo.gl/hFqwxrwuubh4YQKo6">Gen 2 Image</a></li>
+    <li><a href = "https://wallpaperaccess.com/pokemon-gold">Gen 2 Image 2</a></li>
+    <li><a href = "https://images.app.goo.gl/wLm9R8FmK3oS5Y9f7">Gen 3 Image</a></li>
+    <li><a href = "https://images.app.goo.gl/vWk8wRmiH7uCF5v46">Gen 3 Image2</a></li>
+    <li><a href = "https://images.app.goo.gl/7bmPKbymnvrrS7Kd7">Gen 4 Image</a></li>
+    <li><a href = "https://images.app.goo.gl/9NTMAq3Ji9bfv78b7">Gen 4 Image2</a></li>
+    <li><a href = "https://images.app.goo.gl/W5K5EXbGi3aobGtQ8">Gen 5 Image</a></li>
+    <li><a href = "https://images.app.goo.gl/jat9WaH12pXAnnV56">Gen 5 Image2</a></li>
+    <li><a href = "https://images.app.goo.gl/5KFJBWNoKosMdECi7">Gen 6 Image</a></li>
+    <li><a href = "https://images.app.goo.gl/tKHX2nHCSuZRSZrh7">Gen 6 Image2</a></li>
+    <li><a href = "https://images.app.goo.gl/f1qK54bpHmQRbaqU9">Gen 7 Image</a></li>
+    <li><a href = "https://images.app.goo.gl/Qu6i7TVm6dJXedgHA">Gen 7 Image2</a></li>
+    <li><a href = "https://images.app.goo.gl/FxkzZD5C3fznuLHq7">Gen 8 Image</a></li>
+    <li><a href = "https://twinfinite.net/2019/11/10-hd-pokemon-sword-shield-wallpapers-you-need-to-make-your-desktop-background/">Gen 8 Image2</a></li>
 </ul>
