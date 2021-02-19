@@ -1,6 +1,7 @@
 /* modified from https://github.com/mchlltt/Guess-That-Pokemon */
 body {
     align-items: center;
+    /* https://images.app.goo.gl/3gN6WyZgaCtpoc2P8 */
     background-image: url('../image/quizBg.jpg');
     background-clip: content-box;
     background-position: center center;
@@ -114,6 +115,7 @@ p{
 @media only screen and (max-width: 640px) {
     body {
         background: rgb(207, 242, 255);
+        /* https://images.app.goo.gl/qYyXawkdpaTDTSC79 */
         background-image: url('../image/phoneBg.png');
         background-clip: content-box;
         background-position: center ;

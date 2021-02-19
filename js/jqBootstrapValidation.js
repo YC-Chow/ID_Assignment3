@@ -1,4 +1,4 @@
-
+// bootstrap code for validation of the website
 (function($) {
 
   var createdElements = [];
