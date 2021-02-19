@@ -1,41 +1,39 @@
-/* modified from https://github.com/mchlltt/Guess-That-Pokemon */
+/* referenced from https://github.com/mchlltt/Guess-That-Pokemon */
 body {
-    align-items: center;
-    /* https://images.app.goo.gl/3gN6WyZgaCtpoc2P8 */
-    background-image: url('../image/quizBg.jpg');
-    background-clip: content-box;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    display: flex;
-    font-family: 'Comfortaa', Arial, Verdana;
-    padding: 3vh 8vw;
+  align-items: center;
+  /* https://images.app.goo.gl/3gN6WyZgaCtpoc2P8 */
+  background-image: url("../image/quizBg.jpg");
+  background-clip: content-box;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  font-family: "Comfortaa", Arial, Verdana;
+  padding: 3vh 8vw;
 }
 
-.backgorund-image{
-    max-width: 100%;
-    height: auto;
+.backgorund-image {
+  max-width: 100%;
+  height: auto;
 }
 
-.row{
-    width: 100%;
+.row {
+  width: 100%;
 }
-
 
 .content {
-    background-color: lightgray;
-    background-color: rgba(255, 255, 255, .5);
-    border: 0 solid transparent;
-    border-radius: 10px;
-    min-height: 93.2vh;
-    min-width: 100%;
-    padding: 1%;
+  background-color: lightgray;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: 0 solid transparent;
+  border-radius: 10px;
+  min-height: 93.2vh;
+  min-width: 100%;
+  padding: 1%;
 }
-p{
-    font-size: 30px;
+p {
+  font-size: 30px;
 }
-
 
 /* makes elements disappear (only appears in certain situation)*/
 .timer,
@@ -47,84 +45,83 @@ p{
 .restart,
 .reset,
 .pokemon-info {
-    display: none;
+  display: none;
 }
 
 .loading-image {
-    height: auto;
-    width: 200px;
+  height: auto;
+  width: 200px;
 }
 
-#startBtn, #homeBtn,#infoBtn, #resetBtn{
-    border-radius: 10px;
-    min-height: 5vh;
-    min-width: 7vh;
+#startBtn,
+#homeBtn,
+#infoBtn,
+#resetBtn {
+  border-radius: 10px;
+  min-height: 5vh;
+  min-width: 7vh;
 }
 
-#homeBtn a{
-    font-size: 30px;
-    color: white;
+#homeBtn a {
+  font-size: 30px;
+  color: white;
 }
-#homeBtn a:hover{
-    text-decoration: none;
+#homeBtn a:hover {
+  text-decoration: none;
 }
 
-#startBtn,#resetBtn,#homeBtn p{
-    font-size: 30px;
+#startBtn,
+#resetBtn,
+#homeBtn p {
+  font-size: 30px;
 }
 .pokeImg {
-    filter: none;
-    height: 50%;
-    min-width: 280px;
-    transition: filter 0.4s ease-in;
-    width: 30%;
+  filter: none;
+  height: 50%;
+  min-width: 280px;
+  transition: filter 0.4s ease-in;
+  width: 30%;
 }
 
 .silhouette {
-    filter: contrast(0%) brightness(20%);
-    opacity: 1;
-    transition: filter 0s;
+  filter: contrast(0%) brightness(20%);
+  opacity: 1;
+  transition: filter 0s;
 }
 
 .finalResultBox {
-    background-color: white;
-    background-color: rgba(0, 0, 0, .2);
-    border: 0 solid transparent;
-    border-radius: 10px;
-    margin: 3% auto;
-    max-width: 380px;
-    padding: 3%;
+  background-color: white;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 0 solid transparent;
+  border-radius: 10px;
+  margin: 3% auto;
+  max-width: 380px;
+  padding: 3%;
 }
 
 .result-text {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
-#wiki-link{
-    color: white;
-    font-size: 30px
+#wiki-link {
+  color: white;
+  font-size: 30px;
 }
 
-#wiki-link:hover{
-    text-decoration: none;
+#wiki-link:hover {
+  text-decoration: none;
 }
 /* Media Queries */
 
-
-
 @media only screen and (max-width: 640px) {
-    body {
-        background: rgb(207, 242, 255);
-        /* https://images.app.goo.gl/qYyXawkdpaTDTSC79 */
-        background-image: url('../image/phoneBg.png');
-        background-clip: content-box;
-        background-position: center ;
-       
-        background-attachment: fixed;
-        background-size: cover;
-        
-    }
+  body {
+    background: rgb(207, 242, 255);
+    /* https://images.app.goo.gl/qYyXawkdpaTDTSC79 */
+    background-image: url("../image/phoneBg.png");
+    background-clip: content-box;
+    background-position: center;
+
+    background-attachment: fixed;
+    background-size: cover;
+  }
 }
-
-
-
