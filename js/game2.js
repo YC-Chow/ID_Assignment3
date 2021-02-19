@@ -19,7 +19,7 @@ $(document).ready(function() {
         questionsAsked: 0,
         // API things
         queryMethod: 'GET',
-        queryURL: 'http://pokeapi.co/api/v2/pokemon/',
+        queryURL: 'https://pokeapi.co/api/v2/pokemon/',
 
         selectQuestion: function() {
 
