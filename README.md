@@ -5,3 +5,5 @@ Users can test their memory of pokemon. <br>
 This is possible with PokeApi which is like a pokedex<br>
 
 # Design Process
+This website is for anyone who wants to test their memory of pokemon.<br>
+The design is simplistic and takes data of pokemon based on the unique number ID given to each pokemon.<br>
