@@ -20,11 +20,22 @@ The information in Bulbapedia is contributed either through data mining or simpl
 Currently Bulbapedia is one of the sites that has the most updated information on pokemons.<br>
 <br>
 <h3>Technologies Used</h3>
-.<a href = "https://code.jquery.com/">JQuery</a> 
+<ul style = "list-style-type : cirlce">
+ <li>
+  <a href = "https://code.jquery.com/">JQuery</a> 
  - This project uses **Jquery** for DOM Manipulation
-.HTML
- - The project uses HTML for the content of the website.
-.<a href = "https://getbootstrap.com/">Bootstrap</a>
+ </li>
+ <li>
+  <a href = "https://getbootstrap.com/">Bootstrap</a>
  - This project uses **bootstrap** to make designing faster and easier 
-.CSS
+ </li>
+ <li>
+  HTML
+ - The project uses HTML for the content of the website.
+ </li>
+ <li>
+  CSS
  - This project uses **CSS** to style the content of the website
+ </li>
+</ul>
+
