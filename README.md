@@ -10,4 +10,8 @@ The design is simplistic and takes data of pokemon based on the unique number ID
 The website also redirects users to a fandom page of the pokemons which has all the information of the pokemon <br>
 
 # Features
-1. PokeAPI API used - <a href = "https://pokeapi.co/api/v2/pokemon/">PokeAPI</a>
+1. PokeAPI API used - <a href = "https://pokeapi.co/api/v2/pokemon/" target = "_Blank">PokeAPI</a><br>
+This API is used to retrieve the names ,IDs and also the official artworks of pokemons.<br>
+Not only do we not have to hardcode the names and ids of pokemon, we can also get images of pokemons without having to download.<br>
+<br>
+2. Bulbapedia - <a href = "https://bulbapedia.bulbagarden.net/" target = "_Blank"></a>
