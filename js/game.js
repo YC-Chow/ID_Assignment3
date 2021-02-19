@@ -5,6 +5,7 @@ $(document).ready(function() {
     let currentQuestion = {
         ids: [],
         answers: [],
+        artwork: [],
         answerIndex: -1
     };
 
@@ -22,11 +23,13 @@ $(document).ready(function() {
 
         selectQuestion: function() {
 
-            if (game.questionsAsked === 1) {
+            if (game.questionsAsked === 5) {
                 DOMFunctions.callDOMFunctions('gameComplete');
-            } else {
+            } 
+            else {
                 currentQuestion.answers = [];
                 currentQuestion.ids = [];
+                currentQuestion.artwork = [];
                 game.questionsAsked++;
                 let idArray = [];
                 while (idArray.length < 4) {
@@ -43,9 +46,11 @@ $(document).ready(function() {
                         .done(function(response) {
                             currentQuestion.answers.push(response.species.name);
                             currentQuestion.ids.push(response.id);
+                            currentQuestion.artwork.push(response['sprites']['other']['official-artwork']['front_default'])
                             game.startQuestion();
                         });
                 });
+                
             }
         },
 
@@ -103,7 +108,7 @@ $(document).ready(function() {
             $('.displayOptions').show();
             $('.answer-options').empty();
             $('.pokeImg').addClass('silhouette');
-            $('.pokeImg').attr('src', 'image/pokemonImg/' + currentQuestion.ids[currentQuestion.answerIndex] + '.png');
+            $('.pokeImg').attr('src',currentQuestion.artwork[currentQuestion.answerIndex])
             $('.pokeImg').attr('alt', 'A mystery Pokemon\'s silhouette');
 
             for (let i = 0; i < currentQuestion.answers.length; i++) {
@@ -129,11 +134,14 @@ $(document).ready(function() {
             } else {
                 $('#right-or-wrong').text('Time\'s Up!');
             }
-            setTimeout(game.selectQuestion, 1700);
+            $('.pokemon-info').show();
+            $('#wiki-link').attr('href','https://bulbapedia.bulbagarden.net/wiki/'+currentQuestion.answers[currentQuestion.answerIndex]+'_(Pok%C3%A9mon)')
+            setTimeout(game.selectQuestion, 1500);
         },
         hideAnswer: function() {
             $('.timer').show();
             $('.result').hide();
+            $('.pokemon-info').hide();
         },
         ShowResults: function() {
             $('.showPokeImg').hide();
@@ -233,3 +241,7 @@ $(document).ready(function() {
         timer.stop();
     })
 });
+
+
+
+

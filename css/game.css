@@ -44,7 +44,8 @@ p{
 .displayOptions,
 .result,
 .restart,
-.reset {
+.reset,
+.pokemon-info {
     display: none;
 }
 
@@ -98,7 +99,14 @@ p{
     text-decoration: underline;
 }
 
+#wiki-link{
+    color: black;
+}
 
+#wiki-link:hover{
+    color: blue;
+    text-decoration: underline;
+}
 /* Media Queries */
 
 
