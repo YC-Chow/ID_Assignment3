@@ -8,7 +8,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/game.css">
-    <script type="text/javascript" src="js/game.js"></script>
+    <script type="text/javascript" src="js/game2.js"></script>
     
 </head>
 <body>
@@ -49,8 +49,13 @@
         <div class = "row result center-block">
             <h1 class = "text-center" id="correct-answer"><h1>
         </div>
+        <!-- more info button -->
         <div class = "row pokemon-info center-block">
-            <p class="text-center"><a href = "#" id = "wiki-link" target="_blank">click me to know more!</a></p>
+            <button class = "center-block btn-danger" id= 'infoBtn'>
+                <a href="#" target = "_blank" id="wiki-link">Click me to know more</a>
+            </button>
+            <p class = "text-center" style ="font-size: 15px; margin:0">*pressing click more will open a new tab but game will keep running!</p>
+            <p class="text-center" style = "font-size: 15px;">RMB to switch back immediately</p>
         </div>
         <!-- overall results -->
         <div class = "row finalResultBox center-block">
@@ -59,16 +64,19 @@
             <p class="text-center" id = "wrongAns"></p>
             <p class="text-center" id = "noAns"></p>
         </div>
+        <!-- restart buttonm -->
         <div class = "row restart center-block">
             <button class = "center-block btn btn-danger" id = "restartBtn">
                 <p>Restart</p>
             </button>
         </div>
+        <!-- home button -->
         <div class = "row center-block">
             <button class=" center-block btn-danger" id="homeBtn">
                 <a href="index.html">Home</a>
             </button>
         </div>
+        <!-- reset button -->
         <div class = "row reset center-block">
             <button class=" center-block btn-danger" id="resetBtn">
                 <p>Reset</p>

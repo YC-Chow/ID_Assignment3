@@ -54,7 +54,7 @@ p{
     width: 200px;
 }
 
-#startBtn, #homeBtn, #resetBtn{
+#startBtn, #homeBtn,#infoBtn, #resetBtn{
     border-radius: 10px;
     min-height: 5vh;
     min-width: 7vh;
@@ -100,12 +100,12 @@ p{
 }
 
 #wiki-link{
-    color: black;
+    color: white;
+    font-size: 30px
 }
 
 #wiki-link:hover{
-    color: blue;
-    text-decoration: underline;
+    text-decoration: none;
 }
 /* Media Queries */
 
