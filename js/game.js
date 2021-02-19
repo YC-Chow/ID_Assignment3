@@ -33,7 +33,7 @@ $(document).ready(function() {
                 game.questionsAsked++;
                 let idArray = [];
                 while (idArray.length < 4) {
-                    let pokeID = Math.ceil(Math.random() * 721);
+                    let pokeID = Math.ceil(Math.random() * 1118);
                     if (idArray.indexOf(pokeID) !== -1) continue;
                     idArray.push(pokeID);
                 }
