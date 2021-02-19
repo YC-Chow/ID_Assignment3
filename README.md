@@ -7,3 +7,7 @@ This is possible with PokeApi which is like a pokedex<br>
 # Design Process
 This website is for anyone who wants to test their memory of pokemon.<br>
 The design is simplistic and takes data of pokemon based on the unique number ID given to each pokemon.<br>
+The website also redirects users to a fandom page of the pokemons which has all the information of the pokemon <br>
+
+# Features
+1. PokeAPI API used - <a href = "https://pokeapi.co/api/v2/pokemon/">PokeAPI</a>
