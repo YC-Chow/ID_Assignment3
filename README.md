@@ -19,4 +19,4 @@ Bulbapedia is a fandom (a wiki page contributed by fans of the related topic).<b
 The information in Bulbapedia is contributed either through data mining or simply fans playing the game.<br>
 Currently Bulbapedia is one of the sites that has the most updated information on pokemons.<br>
 <br>
-<h2>Existing Features</h2>
+<b>Existing Features</b>
