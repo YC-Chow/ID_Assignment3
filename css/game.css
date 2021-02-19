@@ -1,3 +1,4 @@
+/* modified from https://github.com/mchlltt/Guess-That-Pokemon */
 body {
     align-items: center;
     background-image: url('../image/gameBg.png');
@@ -30,6 +31,8 @@ p{
     font-size: 30px;
 }
 
+
+/* makes elements disappear (only appears in certain situation)*/
 .timer,
 .loading-image,
 .finalResultBox,

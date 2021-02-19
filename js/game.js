@@ -1,3 +1,4 @@
+// modified from https://github.com/mchlltt/Guess-That-Pokemon
 $(document).ready(function() {
 
 
@@ -154,7 +155,7 @@ $(document).ready(function() {
             $('.reset').hide();
         },
 
-
+        //calling of functions based on state of game
         callDOMFunctions: function(event, correct, timeRemaining) {
             if (event === 'startGame') {
                 DOMFunctions.ShowGIF();
@@ -176,7 +177,7 @@ $(document).ready(function() {
     };
 
     let timer = {
-
+        // timer will start at 10
         count: 11,
 
         start: function() {
@@ -193,7 +194,7 @@ $(document).ready(function() {
                 DOMFunctions.callDOMFunctions(event = 'questionAnswered', correct = '');
             }
         },
-
+        // stops timer from counting down and reset back to 10 sec
         stop: function() {
             clearInterval(counter);
             timer.count = 11;
