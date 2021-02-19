@@ -17,6 +17,6 @@ Not only do we not have to hardcode the names and ids of pokemon, we can also ge
 2. Bulbapedia - <a href = "https://bulbapedia.bulbagarden.net/">Bulbapedia</a><br>
 Bulbapedia is a fandom (a wiki page contributed by fans of the related topic).<br>
 The information in Bulbapedia is contributed either through data mining or simply fans playing the game.<br>
-Currently Bulbapedia is one of the sites that has the most updated information on pokemons.<br span ="2">
+Currently Bulbapedia is one of the sites that has the most updated information on pokemons.
 
 <h2>
