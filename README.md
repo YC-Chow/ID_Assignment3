@@ -14,4 +14,4 @@ The website also redirects users to a fandom page of the pokemons which has all 
 This API is used to retrieve the names ,IDs and also the official artworks of pokemons.<br>
 Not only do we not have to hardcode the names and ids of pokemon, we can also get images of pokemons without having to download.<br>
 <br>
-2. Bulbapedia - <a href = "https://bulbapedia.bulbagarden.net/" target = "_Blank"></a>
+2. Bulbapedia - <a href = "https://bulbapedia.bulbagarden.net/" target = "_Blank">Bulbapedia</a>
